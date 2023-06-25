@@ -55,7 +55,7 @@ def newArchive():
         widthEntry.destroy()
         convert_button.destroy()
 
-            # Mostrado tamanho original e solicitando novos valores
+    # Mostrado tamanho original e solicitando novos valores
     originSize = Label(app, text=f'Largura e altura originais {imgWidth} x {imgHeight}', width=38, height=1, anchor='center', padx=8 ,font=('Courier 13 bold'), relief='flat', bg=Colorbackground, fg=Colorfont)
     originSize.place(x=0, y=75)
 
